@@ -12,10 +12,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         nyuryoku.setOnClickListener { onN(it) }
-
+        namaebutton.setOnClickListener { onNamae(it) }
     }
     fun onN (view: View){
         val intent = Intent(this, Main2Activity::class.java)
+        startActivity(intent)
+    }
+    fun onNamae (view: View) {
+        val intent = Intent(this, NamaeNyuuryokuEditActivity::class.java)
         startActivity(intent)
     }
 

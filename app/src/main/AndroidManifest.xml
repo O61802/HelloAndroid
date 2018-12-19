@@ -21,7 +21,8 @@
         <activity android:name=".SyokuziActivity" />
         <activity android:name=".AsaActivity" />
         <activity android:name=".ASAEActivity" />
-        <activity android:name=".NamaeEditActivitty"></activity>
+        <activity android:name=".NamaeEditActivitty" />
+        <activity android:name=".NamaeNyuuryokuEditActivity"></activity>
     </application>
 
 </manifest>
