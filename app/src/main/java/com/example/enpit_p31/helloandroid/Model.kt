@@ -8,4 +8,6 @@ open class Model : RealmObject() {
     var id: Long = 0
     var namae: String = ""
     var asa1: String = ""
+    var hiru1: String = ""
+    var yoru1: String = ""
 }
